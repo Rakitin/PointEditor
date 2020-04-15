@@ -18,5 +18,5 @@ void PointItem::paint(QPainter *painter, const QStyleOptionGraphicsItem *option,
     Q_UNUSED(option);
     Q_UNUSED(widget);
     painter->setBrush(Qt::black);
-    painter->drawEllipse(QRectF(0, 0, 10, 10));
+    painter->drawEllipse(QRect(0, 0, 10, 10));
 }
